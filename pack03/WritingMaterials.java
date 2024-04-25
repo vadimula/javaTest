@@ -1,7 +1,7 @@
 package pack03;
 public class WritingMaterials { // -- Класс "Пишущие принадлежности --
     // -- Параметры --
-    String name; // название предмета (String)
+    static String name; // название предмета (String)
     String color; // цвет, которым он пишет (String).
     int price; // его цена (int)
     double length; // его длина (double)

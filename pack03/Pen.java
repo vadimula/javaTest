@@ -1,6 +1,7 @@
 package pack03;
 public class Pen extends WritingMaterials{
     int countColor;
+    String name;
     boolean auto;
     public void setCountColor(int i) {
         this.countColor = i;
@@ -21,5 +22,9 @@ public class Pen extends WritingMaterials{
     public void display() {
         System.out.println("I'm Pen " + this.name);
         super.display();
+    }
+    @Override
+    public void setName(String _name) {
+        this.name = _name;
     }
 }
